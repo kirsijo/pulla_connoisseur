@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+:root {
+  --font-main: "Roboto Mono", monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: bisque;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  margin: 20px;
+  font-family: var(--font-main);
+}
+
+a {
+  margin: 20px;
+  font-family: var(--font-main);
+}
+
+#pulla-intro {
+  background-color: rgb(143, 212, 212);
+  padding: 15px;
+  font-size: 1.2rem;
+  text-align: center;
+  font-family: var(--font-main);
+}
+
+body {
+  background-color: antiquewhite;
+  height: 80vh;
+}
+
+#search {
+  padding-top: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+select {
+  width: 300px;
+  margin: 30px;
+  padding: 15px;
+}
+
+p {
+  padding-top: 10px;
+  font-family: var(--font-main);
+}
+
+form {
+  font-family: var(--font-main);
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  width: 250px;
+  align-self: center;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: rgb(116, 175, 175);
+  color: white;
+  border-style: none;
+  font-family: var(--font-main);
+}
+
+label {
+  text-align: center;
+  margin-top: 20px;
+}
+
+input:hover {
+  cursor: pointer;
+}
+
+.town-result {
+  margin: 15px;
+  padding: 10px;
+  border-color: black;
+  border-style: double;
+  border-width: 2px;
+}
+
+i {
+  color: rgb(202, 137, 16);
+}
+
+#login {
+  text-align: center;
+  padding-top: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
