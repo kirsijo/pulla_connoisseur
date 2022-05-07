@@ -11,7 +11,7 @@
 
 nav {
   background-color: bisque;
-  height: 10vh;
+  height: 4rem;
   display: flex;
   justify-content: space-between;
 }
@@ -22,8 +22,10 @@ h1 {
 }
 
 a {
-  margin: 20px;
   font-family: var(--font-main);
+  text-decoration: none;
+  color: rgb(50, 88, 88);
+  margin: 10px;
 }
 
 #pulla-intro {
@@ -36,7 +38,6 @@ a {
 
 body {
   background-color: antiquewhite;
-  height: 80vh;
 }
 
 #search {

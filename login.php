@@ -32,9 +32,16 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
     <link rel="stylesheet" href="pulla.css" />
     <title>Login</title>
   </head>
+  <header>
+    <nav>
+    <h1>Login</h1>
+    <a href="pulla.php">Back to homepage</a>
+    </nav>
+  </header>
   <body>
       <main>
-<h1>Login</h1>
+
+
 <form id="login" method="POST" action="login.php">
   <label for="username">Username:</label> <input type="text" id="username" name="username"><br>
   <label for="password">Password: </label><input type="password" id="password" name="password"><br>

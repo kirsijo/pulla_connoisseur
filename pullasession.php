@@ -1,10 +1,7 @@
 <?php
 session_start();                                    
 $logged_in = $_SESSION['logged_in'] ?? false;            
-/*
-$email = 'jamesbond@gmail.com'; 
-$password  = 'password';
-*/
+
 
 function cryptpassword($pass) {
     $hashFormat = "$2y$10$";

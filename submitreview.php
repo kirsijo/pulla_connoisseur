@@ -11,6 +11,8 @@
 <header id="review-header">
 <nav>
     <h1>Submit a review</h1>
+    <div id="links">
+    <a href="pulla.php">Back to homepage</a>
     <?php
         if ($logged_in == false) {
         echo "<a href='login.php'>Login to submit a review</a>";
@@ -18,6 +20,8 @@
        echo "<a href='logout.php'> Log out </a>";
       };
         ?>
+        </div>
+        
 </nav>
 </header>
 
